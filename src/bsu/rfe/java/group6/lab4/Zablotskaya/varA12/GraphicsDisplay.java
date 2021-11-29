@@ -149,7 +149,7 @@ public class GraphicsDisplay extends JPanel {
     // Отображение маркеров точек, по которым рисовался график
     protected void paintMarkers(Graphics2D canvas) {
         canvas.setStroke(markerStroke);
-        canvas.setColor(Color.RED)
+        canvas.setColor(Color.RED);
         canvas.setPaint(Color.RED);
         for (Double[] point : graphicsData) {
 //Целая часть значения функции в точке - нечетная
