@@ -167,6 +167,8 @@ public class GraphicsDisplay extends JPanel {
             rhomb.closePath();
             canvas.draw(rhomb); // Начертить контур маркера
             canvas.fill(rhomb); // Залить внутреннюю область маркера
+            canvas.setColor(Color.RED);
+            canvas.setPaint(Color.RED);
         }
     }
 
